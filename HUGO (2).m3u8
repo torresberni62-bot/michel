@@ -1,11 +1,17 @@
-
 ############### 🇵🇾 TIGO SPORTS 🇵🇾 ###############
 #EXTM3U
+#EXTINF:-1, Tigo Sports PY (Opc 2)
+http://45.170.130.224:8000/play/a04r
+
+#EXTINF:-1, Tigo Sports PY (Opc 3)
+http://181.232.188.21:8282/play/a047
+
+
 #EXTINF:-1 tvg-id="TIGO" tvg-name="TIGO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmI76Me1rICemLAH_uAJEl0oi-fRLMke10nHCC8litA&s" group-title="TIGO SPORTS",TIGO
 http://45.170.130.224:8000/play/a04k/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="Tigo Sports 2" tvg-name="Tigo Sports 2" tvg-logo="https://i.ibb.co/8D6KXGJ2/tigosports.webp" group-title="TIGO SPORTS",Tigo Sports 2 opc4
-https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8
+http://181.232.188.21:8282/play/a047
 
 #EXTINF:-1 tvg-id="Tigo Sports 2" tvg-name="Tigo Sports 2" tvg-logo="https://i.ibb.co/8D6KXGJ2/tigosports.webp" group-title="TIGO SPORTS",Tigo Sports 2 opc5
 #EXTVLCOPT:http-referrer=https://www.tigosports.com.py/
